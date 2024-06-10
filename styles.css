@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+}
+
+#login, #chat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#contacts {
+    width: 30%;
+    border-right: 1px solid #000000;
+    padding: 1rem;
+}
+
+#messages {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#messageList {
+    flex: 1;
+    overflow-y: auto;
+}
+
+#messageForm {
+    display: flex;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
